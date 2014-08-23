@@ -5,11 +5,31 @@ Version=CSPro 5.0
 ENG=English
 
 [QUESTION]
-Field=CODERDOJO_DICT.NAME
+Field=CODERDOJO_DICT.AGE
 ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
 ENG={\colortbl ;\red0\green0\blue0;}
-ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Enter your name\par
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 How old are you?\par
 ENG=}
+
+[QUESTION]
+Field=CODERDOJO_DICT.DAY
+ENG={\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fcharset0 Arial;}}
+ENG=\f0{\colortbl;\red0\green0\blue0;}{\*\generator Wine Riched20 2.0.????;}\pard\sl-240\slmult1\li0\fi0\ri0\sa0\sb0\s-1\cfpat0\cbpat0{\cf1\up0\fs24\ulnone What's the day of the month of the meeting?}}
+
+[QUESTION]
+Field=CODERDOJO_DICT.EMAIL
+ENG={\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fcharset0 Arial;}}
+ENG=\f0{\colortbl;\red0\green0\blue0;}{\*\generator Wine Riched20 2.0.????;}\pard\sl-240\slmult1\li0\fi0\ri0\sa0\sb0\s-1\cfpat0\cbpat0{\cf1\up0\fs24\ulnone What is your email address?}}
+
+[QUESTION]
+Field=CODERDOJO_DICT.MONTH
+ENG={\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fcharset0 Arial;}}
+ENG=\f0{\colortbl;\red0\green0\blue0;}{\*\generator Wine Riched20 2.0.????;}\pard\sl-240\slmult1\li0\fi0\ri0\sa0\sb0\s-1\cfpat0\cbpat0{\cf1\up0\fs24\ulnone What month of the year is this meeting?}}
+
+[QUESTION]
+Field=CODERDOJO_DICT.NAME
+ENG={\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fcharset0 Arial;}}
+ENG=\f0{\colortbl;\red0\green0\blue0;}{\*\generator Wine Riched20 2.0.????;}\pard\sl-240\slmult1\li0\fi0\ri0\sa0\sb0\s-1\cfpat0\cbpat0{\cf1\up0\fs24\ulnone What is your name?}}
 
 [QUESTION]
 Field=CODERDOJO_DICT.ROLE
@@ -19,16 +39,7 @@ ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Are you a 
 ENG=}
 
 [QUESTION]
-Field=CODERDOJO_DICT.EMAIL
-ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
-ENG={\colortbl ;\red0\green0\blue0;}
-ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Enter your email\par
-ENG=}
-
-[QUESTION]
-Field=CODERDOJO_DICT.AGE
-ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
-ENG={\colortbl ;\red0\green0\blue0;}
-ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 How old are you?\par
-ENG=}
+Field=CODERDOJO_DICT.YEAR
+ENG={\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fcharset0 Arial;}}
+ENG=\f0{\colortbl;\red0\green0\blue0;}{\*\generator Wine Riched20 2.0.????;}\pard\sl-240\slmult1\li0\fi0\ri0\sa0\sb0\s-1\cfpat0\cbpat0{\cf1\up0\fs24\ulnone What's the year of the meeting?}}
 
