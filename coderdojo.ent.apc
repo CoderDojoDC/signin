@@ -27,7 +27,7 @@ PROC AGE
 preproc
 
 	if ROLE <> 1 then
-		endlevel
+		skip to INTERESTS
 	endif
 
 

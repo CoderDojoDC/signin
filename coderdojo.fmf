@@ -7,7 +7,7 @@ FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 
 Type=OperatorControlled
   
 [Dictionaries]
-File=8/19/2014 8:45:04 AM,.\coderdojo.dcf
+File=8/24/2014 8:19:03 AM,.\coderdojo.dcf
   
 [Form]
 Name=FORM000
@@ -26,11 +26,12 @@ Item=NAME
 Name=FORM001
 Label=coderdojo record
 Level=1
-Size=957,300
+Size=1534,205
   
 Item=ROLE
 Item=EMAIL
 Item=AGE
+Item=INTERESTS
   
 [EndForm]
   
@@ -116,24 +117,36 @@ Text=role
   
 [Field]
 Name=EMAIL
-Position=108,57,1509,77
+Position=108,71,1509,91
 Item=EMAIL,CODERDOJO_DICT
 Form=2
   
 [Text]
-Position=50,60,86,76
+Position=50,74,86,90
 Text=email
  
   
 [Field]
 Name=AGE
-Position=108,87,137,107
+Position=108,115,137,135
 Item=AGE,CODERDOJO_DICT
 Form=2
   
 [Text]
-Position=50,90,74,106
+Position=50,118,74,134
 Text=age
+ 
+  
+[Field]
+Name=INTERESTS
+Position=108,160,193,180
+Item=INTERESTS,CODERDOJO_DICT
+DataCaptureType=CheckBox
+Form=2
+  
+[Text]
+Position=50,163,103,179
+Text=interests
  
 [EndGroup]
   
