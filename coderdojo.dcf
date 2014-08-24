@@ -46,7 +46,7 @@ DataType=Alpha
 Label=coderdojo record
 Name=CODERDOJO_REC
 RecordTypeValue=''
-RecordLen=215
+RecordLen=217
 
 [Item]
 Label=role
@@ -79,15 +79,17 @@ ZeroFill=Yes
 Label=interests
 Name=INTERESTS
 Start=210
-Len=6
+Len=8
 DataType=Alpha
 
 [ValueSet]
 Label=interests
 Name=INTERESTS_VS1
-Value='A     ';Arduino
-Value='B     ';Scratch
-Value='C     ';HTML
-Value='D     ';Python
-Value='E     ';Minecraft
-Value='F     ';Raspberry Pi
+Value='A       ';Arduino
+Value='B       ';Scratch
+Value='C       ';Web/HTML
+Value='D       ';Python
+Value='E       ';Minecraft
+Value='F       ';Raspberry Pi
+Value='G       ';Java
+Value='H       ';Interactive Fiction

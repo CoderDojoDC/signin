@@ -7,7 +7,7 @@ FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 
 Type=OperatorControlled
   
 [Dictionaries]
-File=8/24/2014 8:19:03 AM,.\coderdojo.dcf
+File=8/24/2014 11:32:11 AM,.\coderdojo.dcf
   
 [Form]
 Name=FORM000
@@ -49,7 +49,7 @@ Max=1
   
 [Field]
 Name=DAY
-Position=112,27,141,47
+Position=112,27,139,47
 Item=DAY,CODERDOJO_DICT
 Persistent=Yes
 Form=1
@@ -61,7 +61,7 @@ Text=day
   
 [Field]
 Name=MONTH
-Position=112,57,141,77
+Position=112,57,139,77
 Item=MONTH,CODERDOJO_DICT
 Persistent=Yes
 Form=1
@@ -73,7 +73,7 @@ Text=month
   
 [Field]
 Name=YEAR
-Position=112,87,141,107
+Position=112,87,139,107
 Item=YEAR,CODERDOJO_DICT
 Persistent=Yes
 Form=1
@@ -85,7 +85,7 @@ Text=year
   
 [Field]
 Name=NAME
-Position=112,117,1513,137
+Position=112,117,1413,137
 Item=NAME,CODERDOJO_DICT
 Form=1
   
@@ -105,7 +105,7 @@ Max=1
   
 [Field]
 Name=ROLE
-Position=108,27,123,47
+Position=108,27,122,47
 Item=ROLE,CODERDOJO_DICT
 DataCaptureType=RadioButton
 Form=2
@@ -117,7 +117,7 @@ Text=role
   
 [Field]
 Name=EMAIL
-Position=108,71,1509,91
+Position=108,71,1409,91
 Item=EMAIL,CODERDOJO_DICT
 Form=2
   
@@ -128,7 +128,7 @@ Text=email
   
 [Field]
 Name=AGE
-Position=108,115,137,135
+Position=108,115,135,135
 Item=AGE,CODERDOJO_DICT
 Form=2
   
@@ -139,7 +139,7 @@ Text=age
   
 [Field]
 Name=INTERESTS
-Position=108,160,193,180
+Position=108,160,200,180
 Item=INTERESTS,CODERDOJO_DICT
 DataCaptureType=CheckBox
 Form=2
