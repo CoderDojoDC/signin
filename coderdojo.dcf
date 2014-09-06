@@ -46,7 +46,7 @@ DataType=Alpha
 Label=coderdojo record
 Name=CODERDOJO_REC
 RecordTypeValue=''
-RecordLen=217
+RecordLen=245
 
 [Item]
 Label=role
@@ -93,3 +93,106 @@ Value='E       ';Minecraft
 Value='F       ';Raspberry Pi
 Value='G       ';Java
 Value='H       ';Interactive Fiction
+
+[Item]
+Label=placeholder
+Name=PLACEHOLDER
+Start=218
+Len=20
+DataType=Alpha
+
+[Item]
+Label=arduino
+Name=ARDUINO
+Start=238
+Len=1
+
+[ValueSet]
+Label=arduino
+Name=ARDUINO_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=scratch
+Name=SCRATCH
+Start=239
+Len=1
+
+[ValueSet]
+Label=scratch
+Name=SCRATCH_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=web/html
+Name=WEB_HTML
+Start=240
+Len=1
+
+[ValueSet]
+Label=web/html
+Name=WEB_HTML_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=python
+Name=PYTHON
+Start=241
+Len=1
+
+[ValueSet]
+Label=python
+Name=PYTHON_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=minecraft
+Name=MINECRAFT
+Start=242
+Len=1
+
+[ValueSet]
+Label=minecraft
+Name=MINECRAFT_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=raspberry pi
+Name=RASPBERRY_PI
+Start=243
+Len=1
+
+[ValueSet]
+Label=raspberry pi
+Name=RASPBERRY_PI_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=java
+Name=JAVA
+Start=244
+Len=1
+
+[ValueSet]
+Label=java
+Name=JAVA_VS1
+Value=1;Yes
+Value=0;No
+
+[Item]
+Label=interactive fiction
+Name=INTERACTIVE_FICTION
+Start=245
+Len=1
+
+[ValueSet]
+Label=interactive fiction
+Name=INTERACTIVE_FICTION_VS1
+Value=1;Yes
+Value=0;No

@@ -31,3 +31,21 @@ preproc
 	endif
 
 
+PROC INTERESTS
+// Pull the individual checkmarks from the interests
+// multiple-response variable into the variables for
+// the individual interests to make analysis simpler.
+// If the character representing arduino (A) is found
+// in the INTERESTS variable then set the ARDUINO variable
+// to 1 otherwise set it to zero. Do the same for the others.
+// pos("A", $) returns the position of the character
+// "A" in the multiple-response variable INTERESTS
+// or zero if it is not found.  	
+ARDUINO = pos("A", $) > 0;
+SCRATCH = pos("B", $) > 0;
+WEB_HTML = pos("C", $) > 0;
+PYTHON = pos("D", $) > 0;
+MINECRAFT = pos("E", $) > 0;
+RASPBERRY_PI = pos("F", $) > 0;
+JAVA = pos("G", $) > 0;
+INTERACTIVE_FICTION = pos("H", $) > 0;
