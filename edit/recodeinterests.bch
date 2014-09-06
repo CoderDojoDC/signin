@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 5.0
+Label=RECODEINTERESTS
+Name=RECODEINTERESTS
+AppType=Batch
+[AppCode]
+File=9/6/2014 11:19:51 AM,.\recodeinterests.bch.apc
+[Message]
+File=9/6/2014 7:27:41 AM,.\recodeinterests.bch.mgf
+[Order]
+File=9/6/2014 7:59:44 AM,.\recodeinterests.ord
+[Dictionary Types]
+Dict-Type=..\coderdojo.dcf,Input,.\recodeinterests.ord
