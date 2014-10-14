@@ -1,0 +1,15 @@
+[SyncFile]
+Version=CSPro 6.0
+AppName=signin
+
+[Server]
+Type=Dropbox
+
+[Sync]
+ServerPath=/CoderDojoDC-CSPro
+
+CreateClientPath=/%AppName%
+ClientPath=/%AppName%
+
+Get=coderdojo.pen
+Get=coderdojo.pff

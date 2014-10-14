@@ -1,0 +1,17 @@
+﻿[SyncFile]
+Version=CSPro 6.0
+AppName=signin
+
+[Server]
+Type=Dropbox
+
+[Sync]
+
+ClientPath=/%AppName%
+CreateServerPath=/CoderDojoDC-CSPro/Data
+CreateServerPath=/CoderDojoDC-CSPro/Data/%UID%
+CreateServerPath=/CoderDojoDC-CSPro/Data/%UID%/%Date%
+ServerPath=/CoderDojoDC-CSPro/Data/%UID%/%Date%
+
+Put=*.dat
+Put=*.dat.not
